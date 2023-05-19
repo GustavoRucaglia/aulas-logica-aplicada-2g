@@ -3,5 +3,14 @@ public class Main {
 
         //aula introdutoria de POO
 
+        Pessoa adao = new Pessoa();
+        adao.name = "adao";
+        adao.sobrenome = "jesus";
+
+        adao.falar();
+        adao.falar(" alto");
+
+        Restaurante padaria = new Restaurante();
+
       }
     }
