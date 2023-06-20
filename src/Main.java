@@ -12,5 +12,9 @@ public class Main {
 
         Restaurante padaria = new Restaurante();
 
+        Produto petisco = new Produto();
+        Produto racao = new Produto(1);
+        Produto remedio = new Produto(2);
+        petisco.setNome("biscoito");
       }
     }
